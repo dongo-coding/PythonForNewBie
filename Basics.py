@@ -64,6 +64,38 @@ else:
 Enter any number: -987654321
 The number is negative       //Example output Bs5  
 
+Bs6/
+
+for i in range(1,11): 
+  print(i)  //dùng for để chạy vòng lặp từ 1 đến 10
+
+i=0 
+while(i<10): 
+  i+=1 
+  print(i) //dùng while để chạy vòng lặp từ 1 đến 10
+
+Bs7/
+
+aNum = int(input("Enter a number: "))
+for i in range (1,aNum+1):
+  print(f"{aNum}x{i}=",aNum * i) // in phép nhân tổng quát từ 1 tới số bất kì
+
+aNum = int(input("Enter a number: "))
+for i in range(1, 11): 
+    print(f"{aNum} x {i} = {aNum * i}") //in phép nhân cụ thể là từ 1 tới 10 với số bất kì
+
+
+print(f"Multiplication Table of {aNum}")
+for i in range(1, 11):
+    print(f"{aNum} x {i:2} = {aNum * i:3}") //ép kiểu để chỉnh các kích thước của các biến trong bảng phép nhân
+
+
+
+
+
+
+
+
 
 
 
